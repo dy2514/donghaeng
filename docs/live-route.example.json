@@ -1,0 +1,33 @@
+{
+  "calibrated": false,
+  "routeId": "campus-practice",
+  "nativeRouteId": "REPLACE_WITH_NAVIGATION_ROUTE_ID",
+  "segments": [
+    {
+      "segmentId": "school-right",
+      "approachId": "school-eastbound",
+      "latitude": 0,
+      "longitude": 0,
+      "approachHeadingDegrees": 90,
+      "startRouteIndex": 0,
+      "endRouteIndex": 0,
+      "turn": "RIGHT",
+      "radiusMeters": 160,
+      "headingToleranceDegrees": 30,
+      "maxTbtDistanceMeters": 200
+    },
+    {
+      "segmentId": "gate-left",
+      "approachId": "gate-northbound",
+      "latitude": 0,
+      "longitude": 0,
+      "approachHeadingDegrees": 0,
+      "startRouteIndex": 1,
+      "endRouteIndex": 1,
+      "turn": "LEFT",
+      "radiusMeters": 160,
+      "headingToleranceDegrees": 30,
+      "maxTbtDistanceMeters": 200
+    }
+  ]
+}

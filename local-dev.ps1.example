@@ -1,0 +1,7 @@
+# Copy this file to local-dev.ps1 and replace paths with YOUR computer's paths.
+# This file is only used by the Windows helper scripts.
+# Android Studio also needs Gradle JDK = 17 and its own sdk.dir in local.properties.
+$DonghaengJavaHome = 'C:\Program Files\Eclipse Adoptium\jdk-17'
+$DonghaengSdkRoot = 'C:\Users\YOUR_NAME\AppData\Local\Android\Sdk'
+$DonghaengAvdName = 'Pleos_Connect'
+$DonghaengStudioPath = 'C:\Program Files\Android\Android Studio\bin\studio64.exe'

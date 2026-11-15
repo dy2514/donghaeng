@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-feature android:name="android.hardware.type.automotive" android:required="false" />
+    <application android:label="동행" android:icon="@drawable/ic_launcher"
+        android:theme="@style/Theme.Donghaeng" android:allowBackup="false" android:supportsRtl="true">
+        <uses-library android:name="android.car" android:required="false" />
+        <activity android:name=".MainActivity" android:exported="true"
+            android:screenOrientation="sensorLandscape" android:configChanges="orientation|screenSize|uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
